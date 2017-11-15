@@ -10,6 +10,10 @@ body, html
   color:#666;
 }
 
+p{
+  text-align: left;
+}
+
 .pimg1, .pimg2, .pimg3
 {
   position:relative;
@@ -45,7 +49,7 @@ body, html
 
 .section
 {
-  text-align:center;
+  text-align:left;
   padding:50px 80px;
 }
 
@@ -72,6 +76,14 @@ body, html
   letter-spacing:8px;
   text-transform:uppercase;
 }
+img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
 
 .ptext .border
 {
@@ -97,6 +109,6 @@ body, html
 	margin-left: 40%;
 }
 
-.boarder{
+.border{
 	margin-top: 80%;
 }
